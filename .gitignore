@@ -1,6 +1,16 @@
 notebooks/api_keys.py
 zika
 
+west_nile_kaggle/src
+west_nile_kaggle/working
+west_nile_kaggle/render_rmarkdown.R
+west_nile_kaggle/west_nile.zip
+west_nile_kaggle/input/sampleSubmission.csv
+west_nile_kaggle/input/noaa_weather_qclcd_documentation.pdf
+west_nile_kaggle/input/mapdata_copyright_openstreetmap_contributors.rds
+
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
