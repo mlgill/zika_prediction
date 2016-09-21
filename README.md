@@ -1,4 +1,4 @@
-# Prediction of Zika Outbreaks With Supervised Machine Learning
+# Prediction of Zika Outbreaks
 by Michelle L. Gill  
 
 ## Introduction
