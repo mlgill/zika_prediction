@@ -1,11 +1,16 @@
 # Prediction of Zika Outbreaks
 by Michelle L. Gill  
 
-## Introduction
+## Summary
 
 This is the source code for my third project in the [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization.
 
 XXXX
+
+## Analysis
+
+
+## Results
 
 
 ## Data Sources
@@ -21,6 +26,8 @@ This project made extensive use of external data sources, including GitHub data 
 7. Worldwide population density was from the [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density), Gridded Population and Population Density of the World
 8. Population
 9. GDP and PPP GDP
+
+*References for Aedes aegypti and Aedes albopictus occurrences*
 
 > Kraemer MUG, Sinka ME, Duda KA, Mylne A, Shearer FM, Brady OJ, Messina JP, Barker CM, Moore CG, Carvalho RG, Coelho GE, Van Bortel W, Hendrickx G, Schaffner F, Wint GRW, Elyazar IRF, Teng H, Hay SI (2015) The global compendium of Aedes aegypti and Ae. albopictus occurrence. Scientific Data 2(7): 150035. [http://dx.doi.org/10.1038/sdata.2015.35](http://dx.doi.org/10.1038/sdata.2015.35)
 
