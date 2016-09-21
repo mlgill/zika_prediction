@@ -1,44 +1,27 @@
-# Project McNulty
-Michelle L. Gill  
-Metis, NYC DS8  
+# Prediction of Zika Outbreaks With Supervised Machine Learning
+by Michelle L. Gill  
 
+## Introduction
 
-//* "Epidemiological Data.zip" : http://datadryad.org/resource/doi:10.5061/dryad.6kn23
+This is the source code for my third project in the [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization.
+
+XXXX
+
 
 ## Data Sources
 
-### Zika outbreak data
+This project made extensive use of external data sources, including GitHub data and that scraped from websites.
 
-From the CDC Epidemic Prediction Initiative [GitHub repo](https://github.com/cdcepi/zika)
-
-### Latitude and longitude data for Zika outbreaks
-
-* Google Maps API
-* Scraped from Google Search via four proxies
-* Scraped from [Distances To](https://www.distancesto.com)
-
-### Airport location information
-
-Worldwide airport locations scraped from [Falling Rain](http://fallingrain.com)
-
-### Airport flight schedules
-
-From [FlightRadar24](https://www.flightradar24.com)
-
-### Worldwide historical weather data
-
-Scraped from [Wunderground](https://www.wunderground.com) by proximal airport code
-
-### *Aedes aegypti* and *Aedes albopictus* occurrences from [Dryad](http://dx.doi.org/10.5061/dryad.47v3c/1)
+1. Zika outbreak data was pulled from the CDC Epidemic Prediction Initiative [GitHub repo](https://github.com/cdcepi/zika). My project used data that was pulled on XXXX (revision XXXX).
+2. Latitude and longitude data for Zika outbreaks was pulled from the following: Google Maps API, Scraped from Google Search via four proxies, and scraped from [Distances To](https://www.distancesto.com).
+3. Airport location information was scraped from [Falling Rain](http://fallingrain.com).
+4. Airport flight schedules were scraped from [FlightRadar24](https://www.flightradar24.com).
+5. Worldwide historical weather data was scraped from [Wunderground](https://www.wunderground.com) using closest airport code as the key.
+6. *Aedes aegypti* and *Aedes albopictus* occurrences were from [Dryad](http://dx.doi.org/10.5061/dryad.47v3c/1). See references below for manuscripts related to this data.
+7. Worldwide population density was from the [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density), Gridded Population and Population Density of the World
+8. Population
+9. GDP and PPP GDP
 
 > Kraemer MUG, Sinka ME, Duda KA, Mylne A, Shearer FM, Brady OJ, Messina JP, Barker CM, Moore CG, Carvalho RG, Coelho GE, Van Bortel W, Hendrickx G, Schaffner F, Wint GRW, Elyazar IRF, Teng H, Hay SI (2015) The global compendium of Aedes aegypti and Ae. albopictus occurrence. Scientific Data 2(7): 150035. [http://dx.doi.org/10.1038/sdata.2015.35](http://dx.doi.org/10.1038/sdata.2015.35)
 
 > Kraemer MUG, Sinka ME, Duda KA, Mylne A, Shearer FM, Brady OJ, Messina JP, Barker CM, Moore CG, Carvalho RG, Coelho GE, Van Bortel W, Hendrickx G, Schaffner F, Wint GRW, Elyazar IRF, Teng H, Hay SI (2015) Data from: The global compendium of Aedes aegypti and Ae. albopictus occurrence. Dryad Digital Repository. [http://dx.doi.org/10.5061/dryad.47v3c](http://dx.doi.org/10.5061/dryad.47v3c)
-
-### Worldwide population density 
-
-[NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density), Gridded Population and Population Density of the World
-
-### Population
-
-### GDP and PPP GDP
