@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-/usr/local/bin/unison git -batch -terse -ui text -root project_mcnulty/ -root ssh://aws2//home/ubuntu/project_mcnulty/
+/usr/local/bin/unison git -batch -terse -ui text -root /Volumes/Files/metis_projects/project_mcnulty/ -root ssh://aws3//home/ubuntu/projects/zika_prediction/
