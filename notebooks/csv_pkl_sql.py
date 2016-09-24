@@ -13,13 +13,13 @@ def pkl_it(dataframe, filebase):
 
     return
 
-def sql_it(dataframe, filebase, dbname='mcnulty'):
-    postgres_str = 'postgresql://mlgill:{}@127.0.0.1:12345/{}'.format(POSTGRES_PWD, dbname)
+def sql_it(dataframe, filebase, dbname='zika'):
+    postgres_str = 'postgresql://mlgill:{}@127.0.0.1:5432/{}'.format(POSTGRES_PWD, dbname)
     engine = create_engine(postgres_str)
     dataframe.to_sql(filebase, engine, if_exists='replace')
     return
 
-def save_it(dataframe, filebase, dbname='mcnulty'):
+def save_it(dataframe, filebase, dbname='zika'):
     csv_it(dataframe, filebase)
     pkl_it(dataframe, filebase)
     sql_it(dataframe, filebase, dbname=dbname)
