@@ -175,23 +175,24 @@ date_list.shape[0], airport_list.shape[0], date_list.shape[0] * airport_list.sha
 
 # In[ ]:
 
-for ndate, date in enumerate(date_list):
-    
-    print ndate
-    df_list = list()
-    
-    for num,(row,dat) in enumerate(airport_list.iterrows()):
-        
-        try:
-            df = scrape_weekly_weather(date, dat)
-        except:
-            df = pd.Series({'NULL':np.NaN}, index=pd.Index([row]))
-
-        df_list.append((date, dat.name, df))
-        
-    with open('../pkl/df_list{}.pkl'.format(ndate),'w') as fh:
-        dill.dump(df_list, fh)
-
+#for ndate, date in enumerate(date_list):
+#    if (ndate>=40):
+#    
+#        print ndate0
+#        df_list = list()
+#        
+#        for num,(row,dat) in enumerate(airport_list.iterrows()):
+#            
+#            try:
+#                df = scrape_weekly_weather(date, dat)
+#            except:
+#                df = pd.Series({'NULL':np.NaN}, index=pd.Index([row]))
+#    
+#            df_list.append((date, dat.name, df))
+#            
+#        with open('../pkl/df_list{}.pkl'.format(ndate),'w') as fh:
+#            dill.dump(df_list, fh)
+#    
 
 # In[83]:
 
@@ -210,6 +211,6 @@ for ndate, date in enumerate(date_list):
 
 # In[ ]:
 
-weather_scrape_range = weather_scrape.groupby(['country','IATA','ICAO']).agg({'report_date':[min,max]})
-(weather_scrape_range[('report_date','max')] - weather_scrape_range[('report_date','min')]).sum()
+#weather_scrape_range = weather_scrape.groupby(['country','IATA','ICAO']).agg({'report_date':[min,max]})
+#(weather_scrape_range[('report_date','max')] - weather_scrape_range[('report_date','min')]).sum()
 
