@@ -74,6 +74,17 @@
 
 # Outbreak Timeline and Predictions
 
+* D3 animation created to show outbreak timeline
+* Size corresponds to number of cases
+* Color indicates prediction (red=Zika positive, blue=Zika negative)
+* Fill corresponds to prediction correctness (filled=correct, white=incorrect)
+
+<!-- Uncomment this line to show PNG still in Deckset instead of movie -->
+![left, 80%](d3_visualization.png)
+
+<!-- Uncomment this line to show movie in Deckset instead of PNG still -->
+<!-- ![left, 70%](d3_visualization.mp4) -->
+
 ---
 
 # Conclusions
