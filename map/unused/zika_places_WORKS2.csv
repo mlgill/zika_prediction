@@ -1,0 +1,4 @@
+city,state,permalink,created_at,lat,long,zika_cases,color
+Saint John,United States,United_States_Virgin_Islands_Saint_John_20160216,2016-02-24 00:00:00,41.45,-87.47,25,1
+New York,United States,aaaaa,2016-02-24 00:00:00,40.7128,-74.0059,5,1
+Ohio,United States,bbbbb,2016-02-25 00:00:00,40.4173,-82.9071,20,2
