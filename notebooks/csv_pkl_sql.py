@@ -22,5 +22,5 @@ def sql_it(dataframe, filebase, dbname='zika'):
 def save_it(dataframe, filebase, dbname='zika'):
     csv_it(dataframe, filebase)
     pkl_it(dataframe, filebase)
-    sql_it(dataframe, filebase, dbname=dbname)
+    sql_it(dataframe, 'sql_' + filebase, dbname=dbname)
     return
