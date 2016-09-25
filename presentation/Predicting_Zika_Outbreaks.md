@@ -58,7 +58,7 @@
 * Best performing model from AdaBoost ± ADASYN upsampling
 
 
-[^1]: Project available at [https://github.com/mlgill/project_mcnulty](https://github.com/mlgill/project_mcnulty)
+[^1]: Project available at [https://github.com/mlgill/zika_prediction](https://github.com/mlgill/zika_prediction)
 
 ^ RED boxes: date and location, BLUE boxes: location, best params: temperature, rain, population density, gdp
 
