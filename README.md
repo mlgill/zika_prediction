@@ -1,18 +1,22 @@
 # Prediction of Zika Outbreaks
-by Michelle L. Gill  
+
+by Michelle L. Gill, Ph.D.  
 
 ## Summary
 
-This is the source code for my third project in the Summer 2016 [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization.
+This is my third project for the Summer 2016 [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization. For this project, whether or not a region would would have an outbreak of Zika virus.
 
-XXXX
-iid timeseries data
+## Blog Post
 
-## Analysis
+A blog post on [themodernscientist](http://themodernscientist.com) will be available the week of 2016/09/26. This text will be updated when the website is posted.
 
+## Repo Contents
 
-## Results
-
+* **environment.yml**: list of conda python libraries that were used during analysis
+* **figures**: images used on the presentation
+* **map**: D3 animated timeline used during presentation
+* **notebooks**: Jupyter notebooks used for analysis
+* **presentation**: [PDF](https://github.com/mlgill/zika_prediction/blob/master/presentation/Predicting_Zika_Outbreaks.pdf) 
 
 ## Data Sources
 
