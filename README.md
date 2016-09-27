@@ -14,7 +14,7 @@ A blog post on [themodernscientist](http://themodernscientist.com) will be avail
 
 * **environment.yml**: list of conda python libraries that were used during analysis
 * **figures**: images used on the presentation
-* **map**: D3 animated timeline used during presentation
+* **map**: D3 animated timeline used during presentation. A [movie](https://mlgill.github.io/zika_prediction/figures/d3_visualization.mp4) of the animation is also available
 * **notebooks**: Jupyter notebooks used for analysis
 * **presentation**: [PDF](https://github.com/mlgill/zika_prediction/blob/master/presentation/Predicting_Zika_Outbreaks.pdf) 
 
