@@ -36,7 +36,7 @@
 
 ---
 
-![right 70%](aedes-aegypti.jpg)
+![right 70%](../figures/aedes-aegypti.jpg)
 
 # Transmission
 
@@ -50,7 +50,7 @@
 
 # Data and Methods [^1]
 
-![left, 110%](data_sources.png)
+![left, 110%](../figures/data_sources.png)
 
 * Unique location ID constructed from Zika data for merging via SQL
 * Merging also facilitated by scraping latitude and longitude 
@@ -66,7 +66,7 @@
 
 # Results
 
-![inline 200%](model_stats.png)
+![inline 200%](../figures/model_stats.png)
 
 ^ Focused on recall, but upsampled model had better precision, albeit at the expense of recall
 
@@ -80,10 +80,10 @@
 * Fill corresponds to prediction correctness (filled=correct, white=incorrect)
 
 <!-- Uncomment this line to show PNG still in Deckset instead of movie -->
-![left, 80%](d3_visualization.png)
+![left, 80%](../figures/d3_visualization.png)
 
 <!-- Uncomment this line to show movie in Deckset instead of PNG still -->
-<!-- ![left, 70%](d3_visualization.mp4) -->
+<!-- ![left, 70%](../figures/d3_visualization.mp4) -->
 
 ---
 
