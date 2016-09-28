@@ -1,14 +1,14 @@
 # Prediction of Zika Outbreaks
 
-by Michelle L. Gill, Ph.D.  
+by Michelle L. Gill  
 
 ## Summary
 
-This is my third project for the Summer 2016 [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization. For this project, whether or not a region would would have an outbreak of Zika virus.
+This is my third project for the Summer 2016 [Metis Data Science Bootcamp](http://thisismetis.com), which incorporated supervised machine learning, PostgreSQL, and D3 for visualization. This project predicted whether or not a region would would have an outbreak of Zika virus.
 
 ## Blog Post
 
-A blog post on [themodernscientist](http://themodernscientist.com) will be available the week of 2016/09/26. This text will be updated when the website is posted.
+A blog post on [themodernscientist](http://themodernscientist.com/posts/2016/2016-09-28-prediction_of_zika_outbreaks/) provides further details about this project.
 
 ## Repo Contents
 
