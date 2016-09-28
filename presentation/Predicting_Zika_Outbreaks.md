@@ -80,7 +80,7 @@
 * Fill corresponds to prediction correctness (filled=correct, white=incorrect)
 
 <!-- Uncomment this line to show PNG still in Deckset instead of movie -->
-![left, 80%](../figures/d3_visualization.png)
+![left, 80%](../figures/d3_visualization_no_title.png)
 
 <!-- Uncomment this line to show movie in Deckset instead of PNG still -->
 <!-- ![left, 70%](../figures/d3_visualization.mp4) -->
