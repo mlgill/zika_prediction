@@ -8,15 +8,15 @@ This is my third project for the Summer 2016 [Metis Data Science Bootcamp](http:
 
 ## Blog Post
 
-A blog post on [themodernscientist](http://themodernscientist.com/posts/2016/2016-09-28-prediction_of_zika_outbreaks/) provides further details about this project.
+A blog post on [themodernscientist.com](http://themodernscientist.com/posts/2016/2016-09-28-prediction_of_zika_outbreaks/) provides further details about this project.
 
 ## Repo Contents
 
-* **environment.yml**: list of conda python libraries that were used during analysis
-* **figures**: images used on the presentation
-* **map**: D3 animated timeline used during presentation. A [movie](https://mlgill.github.io/zika_prediction/figures/d3_visualization.mp4) of the animation is also available
-* **notebooks**: Jupyter notebooks used for analysis
-* **presentation**: [PDF](https://github.com/mlgill/zika_prediction/blob/master/presentation/Predicting_Zika_Outbreaks.pdf) version of the final presentation
+* **environment.yml**: list of conda python libraries that were used during analysis.
+* **figures**: images used on the presentation.
+* **map**: D3 animated timeline used during presentation. A [movie](https://mlgill.github.io/zika_prediction/figures/d3_visualization.mp4) of the animation is also available.
+* **notebooks**: Jupyter notebooks used for analysis.
+* **presentation**: [PDF](https://mlgill.github.io/zika_prediction/presentation/Predicting_Zika_Outbreaks.pdf) version of the final presentation.
 
 ## Data Sources
 
