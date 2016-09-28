@@ -55,7 +55,7 @@
 * Unique location ID constructed from Zika data for merging via SQL
 * Merging also facilitated by scraping latitude and longitude 
 * Outbreak regions classified by date of first reported case
-* Best performing model from AdaBoost ± ADASYN upsampling
+* Best performing model from AdaBoost ± ADASYN over-sampling
 
 
 [^1]: Project available at [https://github.com/mlgill/zika_prediction](https://github.com/mlgill/zika_prediction)
